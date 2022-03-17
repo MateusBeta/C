@@ -2,24 +2,21 @@
 
 int main(){
 
-int resultado, op1, count, base;
+int resultado, op1, count, base, decimal;
 
 printf("Insira o numero em decimal para ser convertido em hexa\n");
 scanf("%d", &op1);
-
-count = 0;
 base = 16;
-resultado = op1 / base;
+decimal = op1;
 
-while (resultado <= base)
-{
-    resultado = resultado / base;
+while (op1 <= base){
+    resultado = op1 / base;
+    op1 = op1 / base;
     count++;
 }
 
-printf("Seu numero em decimal: %d em hexa é: %d%d\n", op1, count, base);
-printf("c%d", count);
-
+printf("Seu numero em decimal: %d em hexa é: %d%d\n", decimal, count, op1);
+printf("%d\n", count);
 
 return 0;
 }

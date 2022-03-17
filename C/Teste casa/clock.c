@@ -40,7 +40,7 @@ int main()
             second=0;
         }
          
-        sleep(5);   //cada numero do lado do sleep significa tantos segundos pro tick
+        sleep(1);   //cada numero do lado do sleep significa tantos segundos pro tick
     }
  
     return 0;
