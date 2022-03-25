@@ -1,3 +1,4 @@
+/*Programa de usuario e senha para que os funcionarios vejam seus salarios e dos empregados abaixo de cada um*/
 #include <stdio.h>
 
 int main(){

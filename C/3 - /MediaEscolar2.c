@@ -1,3 +1,4 @@
+//Programa escolar para saber se os alunos passaram ou nao nas respectivas materias
 #include <stdio.h>
 
 int main(){
