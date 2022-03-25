@@ -1,9 +1,10 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
 void main(){
     int i=1, n, soma = 0;
-    printf("Infrome o numero n:");
+    printf("Infrome o numero n: ");
     scanf("%d", &n);
     while (i <= n) {
         soma += i;
