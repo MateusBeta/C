@@ -4,9 +4,9 @@
 void main(){
     int cargo;
     float salAtual, reajuste;
-    printf("Informe o cargo do funcionario:");
+    printf("Informe o cargo do funcionario: ");
     scanf("%d", &cargo);
-    printf("Informe o salario atual:");
+    printf("Informe o salario atual: ");
     scanf("%f", &salAtual);
 
     if (cargo == 1)
@@ -23,6 +23,6 @@ void main(){
         else{
             reajuste = (salAtual *12) / 100;
         }
-    printf("O reajuste é: %f", reajuste);
-    printf("O novo salario e: %f", salAtual = reajuste);
+    printf("O reajuste é: %.2f\n", reajuste);
+    printf("O novo salario é: %.2f\n", salAtual + reajuste);
 }

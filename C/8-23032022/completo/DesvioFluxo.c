@@ -7,5 +7,5 @@ void main(){
     scanf("%d", &num);
 
     if (num > 20)
-        printf("Maior que 20");
+        printf("Maior que 20\n");
 }

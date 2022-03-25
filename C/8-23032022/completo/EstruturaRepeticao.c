@@ -1,3 +1,4 @@
+//Programa para calcular a media de 10 numeros
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,5 +15,5 @@ void main(){
         soma += num;
     }
     media = soma / 10;
-    printf("A media é: %f", media);
+    printf("A media é: %f\n", media);
 }
