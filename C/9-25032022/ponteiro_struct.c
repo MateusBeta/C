@@ -17,6 +17,8 @@ void main(){
     pnovoCliente = &novoCliente;
 
     printf("Entre com o nome do cliente:\n");
+                            /* Para chamar a variavel ponteiro usamos ".>", se quisermos fazer sem o ponteiro
+                            usaremos apenas um ponto "." */
     scanf("%s", &pnovoCliente->nome);
 
     printf("Entre com o email do cliente:\n");
@@ -25,7 +27,7 @@ void main(){
     printf("Entre com a idade do cliente:\n");
     scanf("%d", &pnovoCliente->idade);
     
-    printf("O nome do cliente é %s\n", pnovoCliente->nome);
-    printf("O e-mail do cliente é %s\n", pnovoCliente->email);
-    printf("A idade do cliente é %d\n", pnovoCliente->idade);
+    printf("O nome do cliente é: %s\n", pnovoCliente->nome);
+    printf("Seu e-mail é: %s\n", pnovoCliente->email);
+    printf("Sua idade é: %d\n", pnovoCliente->idade);
 }
