@@ -13,8 +13,11 @@ void main(){
         char email[100];
         int idade;
     }; //no struct é necessario o ";" no final da chave.
+
+    // aqui estamos criando uma variavel que é tipo "cliente", ou seja, contem todas as variaveis do cliente dentro dela
     struct cliente novoCliente, *pnovoCliente;
     pnovoCliente = &novoCliente;
+
 
     printf("Entre com o nome do cliente:\n");
                             /* Para chamar a variavel ponteiro usamos ".>", se quisermos fazer sem o ponteiro
