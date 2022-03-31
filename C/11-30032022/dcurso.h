@@ -1,5 +1,6 @@
 /*
-
+head usada para ser chamada na operacao.h.
+head que cria a struct para os dados do curso
 */
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,5 +1,6 @@
 /*
-
+operacao.h é a head que sera basicamente toda a estrutura do programa, chamando as structs como "dcurso.h"
+e "dunidade.h", a operacao.h sera usada no cadastro.c
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,7 +22,6 @@ void operacao(){
     pnovoCurso = &novoCurso;
 
     printf("Entre com o nome do curso:\n");
-    //scanf("%s", &pnovoCurso->nomeCurso);
     fgets(pnovoCurso->nomeCurso,60,stdin);
 
     printf("Entre com a descrição do curso:\n");
